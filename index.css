@@ -1,0 +1,104 @@
+
+body {
+    background-color: hsl(30, 38%, 92%);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   width: 1440px;
+   transform: scale(0.7);
+
+}
+
+.Container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 400;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+img{
+    flex:1;
+    width: 50%;
+    object-fit: fill;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.DescriptionContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.product-type{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h1{
+    font-family: Fraunces;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.Description{
+    font-size: 20px;
+    font-family: Montserrat;
+    color: hsl(230, 7%, 52%);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.price-after{
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.price-before{
+    font-family: montserrat;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border-style: hidden;
+    border-radius: 10px;
+    height: 70px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.icon{
+    width: 18px;
+    margin-right: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
